@@ -27,7 +27,7 @@ jobs:
       - name: Azure Login
         uses: azure/login@v1
         with:
-          creds: '${{ secrets.AZURE_CREDENTIALS }}'
+          creds: '${{ secrets.HACKATHON }}'
 
       - name: Az CLI Deploy Management Groups
         id: create_mgs
